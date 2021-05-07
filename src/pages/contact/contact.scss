@@ -1,0 +1,66 @@
+@import "../../Style/theme.scss"; 
+
+.contact-section {
+        display: grid;
+        width: 50%;
+        height: auto;
+        justify-items: center;
+        grid-template-columns: auto;
+        margin-left: 25%;
+        margin-top: 10rem;
+        
+        h2 {
+            margin-bottom: 5rem;
+            font-size: $font-size-h2;
+        }
+        
+    .form-section {
+
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 10rem;
+        margin-left: 5rem;
+
+            .input-section {
+            display: grid;
+            grid-template-rows: auto auto;
+            height: auto;
+            margin-right: 5rem;
+            height: 90%;
+
+            .button-section {
+                display: grid;
+                grid-template-columns: auto auto;
+                width: 100%;
+                justify-content: space-evenly;
+
+                button {
+                  
+                    background-color: white;
+                    border: 1px solid #252525;
+                    border-radius: 5px;
+                    height: 2rem;
+                    width: 8rem;
+                    margin-top: 1.2rem;
+                }
+            }
+
+            input {
+                height: 2rem;
+                width: 16rem;
+                border: 1px solid #252525;
+                border-radius: 5px;
+                margin-top: 0.2rem;
+                margin-bottom: 0.3rem;
+            }
+        }
+
+        textarea {
+            height: 15rem;
+            width: 20rem;
+            border: 1px solid #252525;
+            border-radius: 5px;
+        }
+    }
+        
+}

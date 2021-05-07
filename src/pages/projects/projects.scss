@@ -1,0 +1,52 @@
+@import "../../Style/theme.scss";
+
+.project-section {
+    display: grid;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    grid-template-rows: auto auto;
+    // Style
+    color: $font-color-dark;
+    background-color: $theme-dark;
+
+    h2 {
+        margin-top: 3rem;
+        font-size: $font-size-h2;
+    }
+
+    h3 {
+        font-size: $font-size-h3;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: $font-size-p;
+    }
+    .project-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 50%;
+        margin-top: 3rem;
+        margin-left: 20%;
+    }
+    .project-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 50%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 35%;
+    }
+    .project-info {
+        margin-top: 5rem;
+    }
+    img {
+        height: 20rem;
+        width: 20rem;
+        background-color: #555;
+        margin: 2rem;
+        margin-top: 0;
+    }
+   
+}

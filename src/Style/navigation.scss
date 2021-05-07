@@ -1,0 +1,38 @@
+@import "./theme.scss";
+
+.navBar {
+    display: grid;
+    height: 12rem;
+    width: 100%;
+    color: $font-color-dark;
+    background-color: $theme-dark;
+    position: fixed;
+    top: 0;
+
+    h2 {
+        display: grid;
+        text-transform: uppercase;
+        justify-content: center;
+        font-size: $logo-fontsize;
+        font-family: $header-font;
+    }
+
+    ul {
+        display: grid;
+        width: 50%;
+        margin: auto;
+        margin-top: 0;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+        justify-items: auto;
+        list-style: none;
+        font-size: 1.2rem;
+
+        li {
+            a {
+                text-decoration: none;
+                color: $font-color-dark;
+            }
+        }
+    }
+}
