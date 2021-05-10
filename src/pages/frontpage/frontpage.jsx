@@ -11,7 +11,7 @@ export function FrontPage () {
                         This page will act as a Portfolio/CV. 
                         <br/>
                         <br/>
-                        I will update it with time and it will most likely see some changes. 
+                        The page is subject to change shortly in the future 
                     </p>
                 </div>
         </article>

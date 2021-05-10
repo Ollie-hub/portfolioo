@@ -10,7 +10,6 @@ export function ProjectPage () {
                 <h2>Projects</h2>
                 <article>
                     <div className="project-1"> 
-                       
                         <img src={image} alt="Project 1" />
                         <div className="project-info">
                         <h3>Bakery</h3>
